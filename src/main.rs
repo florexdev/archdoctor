@@ -366,7 +366,7 @@ fn ui(f: &mut Frame, app: &mut App) {
             Span::styled("v0.1.2 ", Style::default().fg(Color::Magenta).add_modifier(Modifier::ITALIC)),
             Span::styled("| Diagnostic Panel", Style::default().fg(Color::DarkGray)),
         ]),
-        Line::from(Span::styled("   Minimalist terminal health check for Arch Linux", Style::default().fg(Color::Gray))),
+        Line::from(Span::styled("   A minimalist terminal health check for Arch Linux", Style::default().fg(Color::Gray))),
     ])
     .block(Block::default().borders(Borders::NONE));
 
